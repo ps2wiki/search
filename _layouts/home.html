@@ -3,8 +3,6 @@ layout: archive
 ---
 
 {{ content }}
-<a class="search__toggle" type="button" id="clickButton">
-          <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>
-          <i class="fas fa-search"></i>
-        </a>
+<span class="visually-hidden"><script>{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</script></span>
+          
 
