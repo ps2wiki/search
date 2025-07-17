@@ -1,7 +1,5 @@
 # main links
 main:
-   - title: "SEARCH"
-     url: https://ps2wiki.github.io/search
    - title: "ABOUT"
      url: https://ps2wiki.github.io/about.html
    - title: "GET STARTED"
