@@ -23,7 +23,7 @@ $(document).ready(function () {
   });
 
   // Search toggle
-  $(".search__toggle").on("load", function () {
+  $(".search__toggle").on("click", function () {
     $(".search-content").toggleClass("is--visible");
     $(".initial-content").toggleClass("is--hidden");
     // set focus on input
