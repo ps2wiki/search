@@ -4,7 +4,11 @@ layout: archive
 
 <style>
 body {
-  background-image: url('https://raw.githubusercontent.com/ps2wiki/ps2wiki.github.io/refs/heads/upstream/assets/images/ps2wiki_bg.jpg');
+  {% if site.ps2wiki_theme == 'xmas' %}
+    background-image: url('https://raw.githubusercontent.com/ps2wiki/ps2wiki.github.io/refs/heads/upstream/assets/xmas/xmas_bg.png');
+  {% else %}
+    background-image: url('https://raw.githubusercontent.com/ps2wiki/ps2wiki.github.io/refs/heads/upstream/assets/images/ps2wiki_bg.jpg');
+  {% endif %}
 }
 </style>
 
