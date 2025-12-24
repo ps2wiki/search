@@ -344,6 +344,7 @@ input[type="submit"],
 /* -- default -- */
 
 .superclass {
+  padding: 0px;
   cursor: url(/assets/images/default-cursor.png), auto;
   -webkit-animation: cursor 400ms infinite;
   animation: cursor 400ms infinite;
