@@ -47,12 +47,6 @@
   }
 }
 
-@media (max-width: 800px) {
-   .page__footer {
-      margin-left: 0em;
-      margin-right: 0em;
-   }
-}
 .page__footer-copyright {
   font-family: $global-font-family;
   font-size: $type-size-7;
@@ -90,4 +84,11 @@
       white-space: nowrap;
     }
   }
+}
+
+@media (max-width: 800px) {
+   .page__footer {
+      margin-left: 0em;
+      margin-right: 0em;
+   }
 }
