@@ -22,7 +22,7 @@
     display: flex;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    justify-content: space-between ;
+    justify-content: space-between - 10px;
     font-family: 'Lexend';
 
     @include breakpoint($x-large) {
