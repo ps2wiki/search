@@ -14,12 +14,12 @@
   -webkit-animation-delay: 0.45s;
   animation-delay: 0.45s;
   background-color: $footer-background-color;
+  margin-left: 10em;
+  margin-right: 10em;
 
   footer {
     @include clearfix;
     margin-inline: auto;
-    margin-left: 10em;
-    margin-right: 10em;
     max-width: 100%;
     padding: 1em;
      
@@ -48,7 +48,7 @@
 }
 
 @media (max-width: 800px) {
-   .footer {
+   .page__footer {
       margin-left: 0em;
       margin-right: 0em;
    }
