@@ -14,8 +14,8 @@
   -webkit-animation-delay: 0.45s;
   animation-delay: 0.45s;
   background-color: $footer-background-color;
-  margin-left: 0em;
-  margin-right: 0em;
+  margin-left: 10em;
+  margin-right: 10em;
 
   footer {
     @include clearfix;
@@ -86,7 +86,7 @@
 
 @media (max-width: 800px) {
    .page__footer {
-      margin-left: 10em;
-      margin-right: 10em;
+      margin-left: 0em;
+      margin-right: 0em;
    }
 }
