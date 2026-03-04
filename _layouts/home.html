@@ -2,6 +2,18 @@
 layout: archive
 ---
 
+<style>
+body {
+  {% if site.ps2wiki_theme == 'xmas' %}
+    background-image: url('https://raw.githubusercontent.com/ps2wiki/ps2wiki.github.io/refs/heads/upstream/assets/xmas/xmas_bg.png');
+  {% elsif site.ps2wiki_theme == 'holi' %}
+    background-image: url('https://raw.githubusercontent.com/ps2wiki/ps2wiki.github.io/refs/heads/upstream/assets/themes/holi/background.png');
+  {% else %}
+    background-image: url('https://raw.githubusercontent.com/ps2wiki/ps2wiki.github.io/refs/heads/upstream/assets/images/ps2wiki_bg.jpg');
+  {% endif %}
+}
+</style>
+
 {{ content }}
 
 <div><button class="search__toggle" type="button"><div style="background-color: #5b5b5b; font-color: #000000; font-size: 1em; color: white; border-radius: 10px; padding: 50px; border: 3px outset wheat">
